@@ -75,11 +75,11 @@ public class Solution {
 	{
 		if(k<c.length-1)
 		{
-			System.out.println(c[k]+",");
+			System.out.print(c[k]+",");
 		}
 		else
 		{
-			System.out.println(c[k]);
+			System.out.print(c[k]);
 		}
 	}
 	}
