@@ -1,3 +1,5 @@
+//package week1;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -10,23 +12,33 @@ public class Solution {
 		// TODO Auto-generated method stub
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		//System.out.println("enter number of elements in array1");
-		int n=br.read();
+		int[] a=null;
+		int[] b=null;
+		int[] c;
+		int n;
+		String s1=br.readLine();
+		n=Integer.parseInt(s1);
 		//System.out.println("enter number of elements in array2");
-		int m=br.read();
+		int m;
+		String s=br.readLine();
+		m=Integer.parseInt(s);
 		//System.out.println("enter elements");
-		int	[] a=new int[n];
-		int []b=new int[m];
-		int []c=new int[n+m];
+		a=new int[n];
+		b=new int[m];
+		c=new int[n+m];
 		for(int i=0;i<n;i++)
 		{
+			//System.out.println(i);
 			a[i]=br.read();
+			
 		}
-		for(int i=0;i<m;i++)
+		for(int j=0;j<m;j++)
 		{
-			b[i]=br.read();
+			//System.out.println("b["+j+"]");
+			b[j]=br.read();
 		}
-		SortedArray s=new SortedArray();
-		s.Sorted(a, b, c);
+		SortedArray s2=new SortedArray();
+		s2.Sorted(a, b, c);
 	}
 
 }
