@@ -26,16 +26,22 @@ public class Solution {
 		a=new int[n];
 		b=new int[m];
 		c=new int[n+m];
+		String w[]=null;
+		String w1[]=null;
+		String p=br.readLine();
+		String q=br.readLine();
+		w=p.split("[,.]");
+		w1=q.split("[,.]");
 		for(int i=0;i<n;i++)
 		{
 			//System.out.println(i);
-			a[i]=br.read();
+			a[i]=Integer.parseInt(w[i]);
 			
 		}
 		for(int j=0;j<m;j++)
 		{
 			//System.out.println("b["+j+"]");
-			b[j]=br.read();
+			b[j]=Integer.parseInt(w1[j]);
 		}
 		SortedArray s2=new SortedArray();
 		s2.Sorted(a, b, c);
