@@ -5,9 +5,9 @@ import java.util.Stack;
 
  class Postfixeval
 {
-	public Double evalution(String exp)
+	public int evalution(String exp)
 	{
-		Stack<Double> s=new Stack<Double>();
+		Stack<Integer> s=new Stack<Integer>();
 		char []c=exp.toCharArray();
 		int n=c.length;
 		for(int i=0;i<n;i++)
@@ -34,15 +34,15 @@ import java.util.Stack;
 			else if(Character.isDigit(ch)) 
 			{
                
-                s.push(0.0);
+                s.push(0);
                 while (Character.isDigit(c[i]))
-                    s.push(10.0 * s.pop() + (c[i++] - '0'));
+                    s.push(10 * s.pop() + (c[i++] - '0'));
             }
         }
 		if (!s.isEmpty()) 
             return s.pop();
         else
-            return 0.0;
+            return 0;
     }
 
 
