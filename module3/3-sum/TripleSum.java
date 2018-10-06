@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class TripleSum 
 {
-	int p,q;
+	int p,q,count=0;
 	public void Triple(int []arr,int n)
 	{
 		Arrays.sort(arr);
@@ -19,7 +19,8 @@ public class TripleSum
 				//System.out.println("im while");
 				if((arr[i]+arr[p]+arr[q])==0)
 				{
-					System.out.println(arr[i]+" " +arr[p]+" "+arr[q]);
+					//System.out.println(arr[i]+" " +arr[p]+" "+arr[q]);
+					count++;
 					p=p+1;
 					q=q-1;
 				}
@@ -33,7 +34,7 @@ public class TripleSum
 				}
 			}
 		}
-		
+		System.out.println(count);	
 	}
 
 	
