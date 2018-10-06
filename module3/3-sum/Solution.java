@@ -8,9 +8,9 @@ public class Solution {
 	{
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
-		System.out.println("enter number of elements");
+		//System.out.println("enter number of elements");
 		int n=sc.nextInt();
-		System.out.println("enter elements");
+		//System.out.println("enter elements");
 		int	[] arr=new int[n];
 		for(int i=0;i<n;i++)
 		{
