@@ -43,8 +43,45 @@ public class Solution {
 			//System.out.println("b["+j+"]");
 			b[j]=Integer.parseInt(w1[j]);
 		}
-		SortedArray s2=new SortedArray();
-		s2.Sorted(a, b, c);
+		int i=0,j=0,k=0;
+		while(i<a.length&&j<b.length)
+		{
+			if(a[i]>b[j])
+			{
+				c[k]=b[j];
+				j++;
+				k++;
+			}
+			else
+			{
+				c[k]=a[i];
+				k++;
+				i++;
+			}
+		}
+		while(i<a.length)
+		{
+			c[k]=a[i];
+			i++;
+			k++;
+		}
+		while(j<b.length)
+		{
+			c[k]=b[j];
+			k++;
+			j++;
+		}
+	for(k=0;k<c.length;k++)
+	{
+		if(k<c.length-1)
+		{
+			System.out.println(c[k]+",");
+		}
+		else
+		{
+			System.out.println(c[k]);
+		}
+	}
 	}
 
 }
