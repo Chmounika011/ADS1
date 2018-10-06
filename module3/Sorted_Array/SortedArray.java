@@ -20,7 +20,7 @@ public class SortedArray
 			k++;
 			j++;
 		}
-		System.out.println("common elements");
+//		System.out.println("common elements");
 		
 		for(i=0;i<r;i++)
 		{
