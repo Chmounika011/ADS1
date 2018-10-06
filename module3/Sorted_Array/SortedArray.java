@@ -20,18 +20,18 @@ public class SortedArray
 			k++;
 			j++;
 		}
-//		System.out.println("common elements");
+		//System.out.println("common elements");
 		
-		for(i=0;i<r;i++)
+	for(k=0;k<c.length;k++)
+	{
+		if(k<c.length-1)
 		{
-		for(k=i+1;k<r-1;k++)
+			System.out.println(c[k]+",");
+		}
+		else
 		{
-			if(c[k]==c[i])
-			{
-				System.out.println(c[k]);
-				
-			}
+			System.out.println(c[k]);
 		}
-		}
+	}
 	}
 }
