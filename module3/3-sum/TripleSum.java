@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class TripleSum 
 {
-	int p,q,count=0;
+	int p,q,count=1;
 	public void Triple(int []arr,int n)
 	{
 		Arrays.sort(arr);
