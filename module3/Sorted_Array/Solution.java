@@ -1,28 +1,29 @@
-//package week1;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
-import java.util.Scanner;
 
 public class Solution {
 
-	public static void main(String[] args)
+	public static void main(String[] args) throws IOException
 	{
 		// TODO Auto-generated method stub
-		Scanner sc=new Scanner(System.in);
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		//System.out.println("enter number of elements in array1");
-		int n=sc.nextInt();
+		int n=br.read();
 		//System.out.println("enter number of elements in array2");
-		int m=sc.nextInt();
+		int m=br.read();
 		//System.out.println("enter elements");
-		int [] a=new int[n];
+		int	[] a=new int[n];
 		int []b=new int[m];
 		int []c=new int[n+m];
 		for(int i=0;i<n;i++)
 		{
-			a[i]=sc.nextInt();
+			a[i]=br.read();
 		}
 		for(int i=0;i<m;i++)
 		{
-			b[i]=sc.nextInt();
+			b[i]=br.read();
 		}
 		SortedArray s=new SortedArray();
 		s.Sorted(a, b, c);
