@@ -1,8 +1,8 @@
-package week1;
+//package week1;
 
 import java.util.Scanner;
 
-public class Solution1 {
+public class Solution {
 
 	public static void main(String[] args) 
 	{
