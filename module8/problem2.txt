@@ -1,0 +1,22 @@
+Show, how Insertion sort sorts the array E A S Y Q U E S T I O N.
+
+Answer the above problem in a file name problem-2.txt and add it to the folder ADS-1-practice/m8
+Push the respository to GitHub when your answer is done
+Enter the git commit ID in the blank below
+Do not use eval to submit this activity
+
+INSERTION SORT
+
+E	A	S	Y	Q	U	E	S	T	I	O	N
+A	E	S	Y	Q	U	E	S	T	I	O	N
+A	E	S	Y	Q	U	E	S	T	I	O	N
+A	E	S	Y	Q	U	E	S	T	I	O	N
+A	E	Q	S	Y	U	E	S	T	I	O	N
+A	E	Q	S	U	Y	E	S	T	I	O	N
+A	E	E	Q	S	U	Y	S	T	I	O	N
+A	E	E	Q	S	S	U	Y	T	I	O	N
+A	E	E	Q	S	S	T	U	Y	I	O	N
+A	E	E	I	Q	S	S	T	U	Y	O	N
+A	E	E	I	O	Q	S	S	T	U	Y	N	
+A	E	E	I	O	Q	S	S	T	U	Y	N	
+A	E	E	I	N	O	Q	S	S	T	U	Y

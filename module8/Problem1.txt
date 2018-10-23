@@ -1,0 +1,24 @@
+Show, how selection sort sorts the array E A S Y Q U E S T I O N.
+
+Answer the above problem in a file name problem-1.txt and add it to the folder ADS-1-practice/m8
+Push the respository to GitHub when your answer is done
+Enter the git commit ID in the blank below
+Do not use eval to submit this activity
+SELECTION SORT
+E	A	S	Y	Q	U	E	S	T	I	O	N
+A>E 
+A	E	S	Y	Q	U	E	S	T	I	O	N
+E>=E
+A	E	E	Y	Q	U	S	S	T	I	O	N
+Y>I
+A	E	E	I	Q	U	S	S	T	Y	O	N
+Q>N
+A	E	E	I	N	U	S	S	T	Y	O	Q
+U>O
+A	E	E	I	N	O	S	S	T	Y	U	Q
+S>Q
+A	E	E	I	N	O	Q	S	T	Y	U	S
+S>=S
+A	E	E	I	N	O	Q	S	S	Y	U	T
+Y>T
+A	E	E	I	N	O	Q	S	S	T	U	Y

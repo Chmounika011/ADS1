@@ -1,0 +1,9 @@
+Which method runs faster for an array with all keys identical, basic selection sort or basic insertion sort?
+
+Answer the above problem in a file name problem-3.txt and add it to the folder ADS-1-practice/m8
+Push the respository to GitHub when your answer is done
+Enter the git commit ID in the blank below
+Do not use eval to submit this activity
+
+Answer:
+Insertion Sort
