@@ -1,0 +1,10 @@
+Given a non negative number n, return the factorial of n, which is n * (n-1) * (n-2)... 1. Compute the result recursively (without loops).
+
+Answer the above problem in a file name problem-1.txt and add it to the folder ADS-1-practice/m10
+Push the respository to GitHub when your answer is done
+Enter the git commit ID in the blank below
+Do not use eval to submit this activity
+
+ans:
+logic is n*fact(n-1);
+if n=5 then output is 120
