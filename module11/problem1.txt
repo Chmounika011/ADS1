@@ -1,0 +1,57 @@
+Give traces by showing how the keys E A S Y Q U E S T I O N are sorted with quick sort.
+
+Answer the above problem in a file name problem-1.txt and add it to the folder ADS-1-practice/m11
+Push the respository to GitHub when your answer is done
+Enter the git commit ID in the blank below
+Do not use eval to submit this activity
+
+ans:
+E	A	S	Y	Q	U	E	S	T	I	O	N
+P	I										J
+E	A	S	Y	Q	U	E	S	T	I	O	N
+P		I								J
+E	A	S	Y	Q	U	E	S	T	I	O	N
+P		I							J
+E	A	S	Y	Q	U	E	S	T	I	O	N
+P		I						J
+E	A	S	Y	Q	U	E	S	T	I	O	N
+P		I					J
+E	A	S	Y	Q	U	E	S	T	I	O	N
+P		I				J
+E	A	S	Y	Q	U	E	S	T	I	O	N
+P		I			J
+E	A	S	Y	Q	U	E	S	T	I	O	N
+P		I		J
+E	A	S	Y	Q	U	E	S	T	I	O	N
+P		I	J
+E	A	S	Y	Q	U	E	S	T	I	O	N
+P		IJ
+E	A	S	Y	Q	U	E	S	T	I	O	N
+P	J	I
+A	E	S	Y	Q	U	E	S	T	I	O	N
+		P	I								J
+A	E	S	N	Q	U	E	S	T	I	O	Y
+		P		I						J
+A	E	S	N	Q	U	E	S	T	I	O	Y
+		P			I					J
+A	E	S	N	Q	O	E	S	T	I	U	Y
+		P				I			J
+A	E	S	N	Q	O	E	S	T	I	U	Y
+		P					I		J
+A	E	S	N	Q	O	E	S	I	T	U	Y
+		P						J	I
+A	E	N	Q	O	E	S	I	S	T	U	Y
+		P	I				J
+A	E	N	I	O	E	S	Q	S	T	U	Y
+		P		I		J				
+A	E	N	I	O	E	S	Q	S	T	U	Y
+		P		I	J
+A	E	N	I	E	O	S	Q	S	T	U	Y
+		P		J	I
+A	E	I	E	N	O	S	Q	S	T	U	Y
+		P	IJ
+A	E	E	I	N	O	S	Q	S	T	U	Y
+					P	I	J
+A	E	E	I	N	O	S	Q	S	T	U	Y	
+					P	IJ
+A	E	E	I	N	O	Q	S	S	T	U	Y	
