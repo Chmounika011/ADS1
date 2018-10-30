@@ -1,0 +1,11 @@
+Suppose that the sequence P R I O * R * * I * T * Y * * * Q U E * * * U * E (where a letter means insert and an asterisk means remove the maximum) is applied to an initially empty priority queue. Give the sequence of values returned by remove the maximum operations.
+
+Answer the above problem in a file name problem-1.txt and add it to the folder ADS-1-practice/m13
+Push the respository to GitHub when your answer is done
+Enter the git commit ID in the blank below
+Do not use eval to submit this activity
+
+P R I O * R * * I * T * Y * * * Q U E * * * U * E 
+
+ans:
+RRPTYOIUQEUE
