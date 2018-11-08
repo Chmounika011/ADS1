@@ -1,0 +1,20 @@
+Give the sequences of nodes examined when the methods in BST are used to compute each of the following quantities for the tree drawn at below.
+a. floor("Q") 
+b. select(5) 
+c. ceiling("Q") 
+d. rank("J") 
+e. size("D", "T") 
+f. keys("D", "T")
+bst
+Answer the above problem in a file name problem-1.txt and add it to the folder ADS-1-practice/m19
+Push the respository to GitHub when your answer is done
+Enter the git commit ID in the blank below
+Do not use eval to submit this activity
+
+Ans:
+a. floor("Q")=Q 
+b. select(5) =Q
+c. ceiling("Q")=Q 
+d. rank("J") =4
+e. size("D", "T") =E,J,M,S,Q
+f. keys("D", "T") =D,E,J,M,Q,S,T
