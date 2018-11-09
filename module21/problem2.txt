@@ -1,0 +1,10 @@
+Insert the keys E A S Y Q U T I O N in that order into an initially empty table of M = 5 lists, using separate chaining. Use the hash function 11 k % M to transform the kth letter of the alphabet into a table index.
+
+Answer the above problem in a file name problem-2.txt and add it to the folder ADS-1-practice/m22
+Push the respository to GitHub when your answer is done
+Enter the git commit ID in the blank below
+Do not use eval to submit this activity
+
+Answer:
+E A S Y Q U T I O N 
+if M=5 and 11 k % M having same list. 

@@ -1,0 +1,12 @@
+Is the following implementation of hashCode() legal?
+public int hasCode(){
+return 17;
+}
+If legal, Analyse the performance.
+Answer the above problem in a file name problem-1.txt and add it to the folder ADS-1-practice/m22
+Push the respository to GitHub when your answer is done
+Enter the git commit ID in the blank below
+Do not use eval to submit this activity
+
+Ans:
+It requires less collision because of prime number 17 
